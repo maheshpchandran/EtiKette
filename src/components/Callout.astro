@@ -1,0 +1,26 @@
+---
+// Callout for use inside .astro pages. (Markdown content uses the
+// `:::name` directive syntax, which renders to the same markup.)
+type Variant = 'tradition' | 'tip' | 'hygiene' | 'variation';
+
+interface Props {
+  type?: Variant;
+  title?: string;
+}
+
+const { type = 'tip', title } = Astro.props;
+
+const META: Record<Variant, { label: string; emoji: string }> = {
+  tradition: { label: 'Tradition', emoji: '🪔' },
+  tip: { label: 'Tip', emoji: '✅' },
+  hygiene: { label: 'Hygiene note', emoji: '🧼' },
+  variation: { label: 'Regional variation', emoji: '🧭' },
+};
+
+const meta = META[type];
+---
+
+<aside class={`callout ${type}`}>
+  <p class="label">{meta.emoji} {title ?? meta.label}</p>
+  <slot />
+</aside>

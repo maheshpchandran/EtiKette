@@ -1,0 +1,21 @@
+---
+import { withBase } from '../lib/url';
+const year = new Date().getFullYear();
+---
+
+<footer class="site-footer">
+  <div class="container inner">
+    <div>
+      <strong>EtiKette</strong> — a living, open-source guide to how India eats.
+      <br />
+      Traditions vary by family, faith, and place; treat every page as a starting point, not a rulebook.
+    </div>
+    <div>
+      <a href="https://github.com/maheshpchandran/EtiKette">GitHub</a>
+      &nbsp;·&nbsp;
+      <a href={withBase('contribute/')}>Contribute</a>
+      &nbsp;·&nbsp;
+      <span>© {year}</span>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,85 @@
+---
+// A labelled diagram of how a Kerala sadya is laid out on a banana leaf:
+// the tapered tip points LEFT, condiments and dry/sweet sides sit on the far
+// half, and rice (with curries poured over it in courses) sits on the near
+// half. Placement varies by household and occasion — this is the common form.
+---
+
+<figure class="leaf-figure">
+  <svg viewBox="0 0 960 560" role="img"
+       aria-label="A banana leaf laid out for a Kerala sadya. The narrow tip points to the diner's left. Across the far half, from left to right, sit salt and pickles, banana chips and sharkara upperi, thoran and avial, olan, and kaalan, kichadi and pachadi, with pappadam at the far right. On the near half a large mound of rice sits in the centre, with parippu, sambar, rasam and moru poured over it in courses, and payasam to the right. The diner sits on the near side.">
+    <defs>
+      <linearGradient id="leafG" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#3a8f3f" />
+        <stop offset="1" stop-color="#256b2a" />
+      </linearGradient>
+    </defs>
+
+    <!-- leaf body, tip to the left -->
+    <path d="M55 280 C120 165 820 150 905 190 Q930 280 905 370 C820 410 120 395 55 280 Z"
+          fill="url(#leafG)" stroke="#1b5e20" stroke-width="3" />
+    <!-- midrib -->
+    <path d="M70 280 H900" stroke="#bfe0bd" stroke-width="2.5" opacity="0.7" />
+    <!-- a couple of veins -->
+    <path d="M300 200 C360 235 420 255 470 278" stroke="#bfe0bd" stroke-width="1.4" fill="none" opacity="0.5" />
+    <path d="M300 360 C360 325 420 305 470 282" stroke="#bfe0bd" stroke-width="1.4" fill="none" opacity="0.5" />
+
+    <g font-family="ui-sans-serif, system-ui, sans-serif" text-anchor="middle">
+      <!-- ===== FAR HALF (away from diner): condiments + dry/sweet + sides ===== -->
+      <text x="480" y="120" font-size="15" fill="#6f665a" font-style="italic">Far half — condiments, crunchy &amp; sweet bits, vegetable sides</text>
+
+      <!-- salt + pickles (far left) -->
+      <circle cx="175" cy="225" r="9" fill="#d98a2b" />
+      <circle cx="205" cy="232" r="11" fill="#a6571f" />
+      <text x="190" y="200" font-size="14" fill="#fff">Salt · pickles</text>
+      <text x="190" y="255" font-size="12" fill="#eaf3e8">puli inji, mango</text>
+
+      <!-- chips + sharkara -->
+      <circle cx="320" cy="228" r="12" fill="#e8c14a" />
+      <circle cx="350" cy="235" r="10" fill="#7a4a1c" />
+      <text x="335" y="205" font-size="13" fill="#fff">Banana chips ·</text>
+      <text x="335" y="258" font-size="12" fill="#eaf3e8">sharkara upperi</text>
+
+      <!-- thoran / avial -->
+      <circle cx="470" cy="225" r="13" fill="#7cb342" />
+      <text x="470" y="200" font-size="14" fill="#fff">Thoran · avial</text>
+
+      <!-- olan -->
+      <circle cx="600" cy="225" r="12" fill="#cfe3b0" />
+      <text x="600" y="200" font-size="14" fill="#fff">Olan</text>
+
+      <!-- kaalan / kichadi / pachadi -->
+      <circle cx="725" cy="228" r="12" fill="#e8d8a0" />
+      <text x="725" y="203" font-size="13" fill="#fff">Kaalan · kichadi ·</text>
+      <text x="725" y="258" font-size="12" fill="#eaf3e8">pachadi</text>
+
+      <!-- pappadam far right -->
+      <circle cx="840" cy="240" r="16" fill="#f3e6c4" stroke="#cbb27a" stroke-width="1.5" />
+      <text x="840" y="210" font-size="14" fill="#fff">Pappadam</text>
+
+      <!-- ===== NEAR HALF (diner's side): rice + curries + payasam ===== -->
+      <!-- rice mound -->
+      <ellipse cx="430" cy="345" rx="95" ry="46" fill="#fdfaf2" stroke="#d8c89c" stroke-width="2" />
+      <text x="430" y="345" font-size="20" fill="#3a2f1c" font-weight="700">Rice</text>
+      <text x="430" y="368" font-size="13" fill="#7a6a45">choru</text>
+      <text x="430" y="418" font-size="13" fill="#fff">↑ parippu · sambar · rasam · moru poured over rice, in courses</text>
+
+      <!-- payasam -->
+      <circle cx="730" cy="345" r="22" fill="#caa6d8" stroke="#9a6fb0" stroke-width="2" />
+      <text x="730" y="350" font-size="13" fill="#3a2540" font-weight="700">Payasam</text>
+      <text x="730" y="392" font-size="12" fill="#fff">served at the end</text>
+    </g>
+
+    <!-- annotations outside the leaf -->
+    <g font-family="ui-sans-serif, system-ui, sans-serif" fill="#6f665a">
+      <text x="30" y="285" font-size="14" text-anchor="start">tip ◀</text>
+      <text x="480" y="540" font-size="15" text-anchor="middle" font-weight="600">▼ the diner sits on this side ▼</text>
+    </g>
+  </svg>
+  <figcaption>
+    A typical sadya layout. The pointed tip of the leaf faces the diner's left; the
+    far half carries pickles, crisp and sweet bits, and vegetable curries, while
+    rice sits on the near half and is served curry-by-curry. Exact placement varies
+    by family, community, and occasion.
+  </figcaption>
+</figure>
