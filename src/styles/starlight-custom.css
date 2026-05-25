@@ -53,6 +53,10 @@ h1#_top {
   border: 1px solid var(--sl-color-gray-5);
   background: var(--sl-color-bg);
 }
+/* Off-leaf annotations sit on the page background, so flip with the theme. */
+.sl-markdown-content .leaf-figure svg text.etk-ink {
+  fill: var(--sl-color-text);
+}
 .sl-markdown-content .leaf-figure figcaption {
   font-size: 0.88rem;
   color: var(--sl-color-gray-3);
