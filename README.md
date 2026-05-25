@@ -13,10 +13,12 @@ and, where a beloved tradition carries a real health risk, it flags a more
 
 ## Tech stack
 
-- **[Astro](https://astro.build)** static site generator (content collections).
+- **[Astro](https://astro.build)** + **[Starlight](https://starlight.astro.build)**
+  — the official Astro docs theme: sidebar navigation, full-text search
+  (Pagefind), dark/light mode, and accessibility out of the box.
 - Content authored in **Markdown / MDX** — no coding required to contribute.
-- Styled callouts (`:::tip`, `:::hygiene`, `:::tradition`, `:::variation`) via a
-  small [remark-directive](https://github.com/remarkjs/remark-directive) plugin.
+- Hygiene/tradition notes use Starlight **asides** (`:::caution`, `:::note`,
+  `:::tip`).
 - Hosted on **GitHub Pages** (custom domain `etikette.in`), deployed by GitHub
   Actions on every push to `main`.
 
@@ -35,16 +37,15 @@ Requires Node 18+ (developed on Node 22/25).
 
 ```
 src/
-  content/regions/<region>/     Markdown guides (the actual content)
-    kerala/ overview, sadya, hand-eating, serving-and-hosting,
-            hygiene, festivals-and-occasions, dos-and-donts, glossary
-  content.config.ts             Frontmatter schema for content
-  data/regions.ts               Region list + metadata
-  components/                   Nav, Footer, Callout, TopicCard, SadyaLeaf, …
-  layouts/BaseLayout.astro
-  pages/                        Routes (home, about, contribute, regions/…)
-  styles/global.css
-  lib/                          url helper + remark callouts plugin
+  content/docs/                 Markdown/MDX guides (the actual content)
+    index.mdx                   Splash landing page
+    about.md, contribute.md
+    kerala/                     overview, sadya, hand-eating, serving-and-hosting,
+                                hygiene, festivals-and-occasions, dos-and-donts, glossary
+  content.config.ts             Starlight `docs` collection
+  components/SadyaLeaf.astro    Labelled banana-leaf diagram (used in sadya.mdx)
+  styles/starlight-custom.css   Theme overrides (banana-leaf accent, serif headings)
+astro.config.mjs                Starlight config: title, sidebar, social, theming
 public/                         favicon, CNAME (custom domain)
 .github/workflows/deploy.yml    GitHub Pages deployment
 ```

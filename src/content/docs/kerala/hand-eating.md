@@ -1,12 +1,8 @@
 ---
 title: Eating by Hand
-summary: The right-hand technique for eating rice and curry, what each hand is for, and the hygiene that makes it safe.
-order: 2
-icon: "🤚"
-tags: [hand-eating, technique, etiquette]
-sources:
-  - label: "Eating utensils & hand-eating customs — Wikipedia"
-    url: https://en.wikipedia.org/wiki/Eating
+description: The right-hand technique for eating rice and curry, what each hand is for, and the hygiene that makes it safe.
+sidebar:
+  order: 3
 lastUpdated: 2026-05-25
 ---
 
@@ -22,7 +18,7 @@ The left hand may still be used to:
 - pass a serving dish (though offering with the right, or both hands, reads as more respectful),
 - serve yourself from a communal bowl using a spoon.
 
-:::variation[Left-handed diners]
+:::note[🧭 Left-handed diners]
 People who are naturally left-handed often eat with the left hand at home without issue. In a traditional or formal setting it can still draw notice; many left-handers simply explain, or use the right hand for the shared parts of the meal.
 :::
 
@@ -42,12 +38,12 @@ A clean technique uses only the first one or two finger-joints. Eating neatly wi
 
 Eating with your hands is perfectly hygienic — *if your hands are clean*. The risk isn't the hand; it's an unwashed hand, or a hand that's been in a shared dish.
 
-:::hygiene
-**Wash both hands with soap immediately before eating, and again after** — not just a rinse. Keep fingernails short and clean, since that's where food and germs collect. And don't return a hand that's touched your mouth into a **communal serving bowl**: serve from shared dishes with a spoon, or have the host serve you. (See [Hygiene at the Kerala Table](/regions/kerala/hygiene/) for more.)
+:::caution[🧼 Hygiene note]
+**Wash both hands with soap immediately before eating, and again after** — not just a rinse. Keep fingernails short and clean, since that's where food and germs collect. And don't return a hand that's touched your mouth into a **communal serving bowl**: serve from shared dishes with a spoon, or have the host serve you. (See [Hygiene at the Kerala Table](/kerala/hygiene/) for more.)
 :::
 
 ## A few quiet don'ts
 
 - Don't lick your fingers and then reach into a shared dish.
 - Don't talk with a full hand hovering over the food.
-- At a [sadya](/regions/kerala/sadya/), don't dig through the curries — take what's served to you.
+- At a [sadya](/kerala/sadya/), don't dig through the curries — take what's served to you.

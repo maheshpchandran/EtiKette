@@ -1,25 +1,43 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
-import remarkDirective from 'remark-directive';
-import { remarkCallouts } from './src/lib/remark-callouts.mjs';
+import starlight from '@astrojs/starlight';
 
-import mdx from '@astrojs/mdx';
-
-// EtiKett(e) is served from the custom domain https://etikette.in, so it
-// deploys at the site root (no `base` subpath). The repo is named "EtiKette".
-// GitHub Pages needs the public/CNAME file to keep the custom domain on deploy.
+// EtiKette is served from the custom domain https://etikette.in (site root, no
+// `base`). GitHub Pages keeps the domain via public/CNAME. Starlight provides
+// the layout, sidebar nav, search, and dark mode; .mdx support is built in.
 export default defineConfig({
   site: 'https://etikette.in',
-  trailingSlash: 'ignore',
-
-  markdown: {
-    // remarkDirective parses `:::name` blocks; remarkCallouts turns the ones
-    // we recognise (tip / hygiene / tradition / variation) into styled asides.
-    remarkPlugins: [remarkDirective, remarkCallouts],
-    shikiConfig: {
-      theme: 'github-light',
-    },
-  },
-
-  integrations: [mdx()],
+  integrations: [
+    starlight({
+      title: 'EtiKette',
+      description:
+        'A living, open-source guide to regional dining etiquette across India, starting with Kerala.',
+      favicon: '/favicon.svg',
+      customCss: ['./src/styles/starlight-custom.css'],
+      social: [
+        {
+          icon: 'github',
+          label: 'GitHub',
+          href: 'https://github.com/maheshpchandran/EtiKette',
+        },
+      ],
+      editLink: {
+        baseUrl: 'https://github.com/maheshpchandran/EtiKette/edit/main/',
+      },
+      lastUpdated: true,
+      sidebar: [
+        {
+          label: 'Kerala 🌴',
+          items: [{ autogenerate: { directory: 'kerala' } }],
+        },
+        {
+          label: 'About the project',
+          items: [
+            { label: 'About EtiKette', link: '/about/' },
+            { label: 'Contribute', link: '/contribute/' },
+          ],
+        },
+      ],
+    }),
+  ],
 });

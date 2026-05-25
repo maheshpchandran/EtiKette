@@ -1,12 +1,8 @@
 ---
 title: Serving & Hosting
-summary: Who is served first, how the continuous serving works, and how to politely signal you've had enough.
-order: 3
-icon: "🍽️"
-tags: [serving, hosting, hospitality, etiquette]
-sources:
-  - label: "Sadya — Wikipedia"
-    url: https://en.wikipedia.org/wiki/Sadya
+description: Who is served first, how the continuous serving works, and how to politely signal you've had enough.
+sidebar:
+  order: 4
 lastUpdated: 2026-05-25
 ---
 
@@ -26,7 +22,7 @@ If you're the guest, it's normal — and expected — to be served before your h
 
 At a sadya, servers walk the row with buckets, ladling each dish in turn; at home, the host circulates with pots. They **will** come back to offer more rice, more curry, more payasam. This persistence is generosity, not pressure — declining once is rarely taken as final.
 
-:::tradition
+:::note[🪔 Tradition]
 A good host insisting "just a little more" is performing care, and a guest's mild, smiling resistance is part of the same dance. Taking a token second helping of something you enjoyed is a quiet compliment to the cook.
 :::
 
@@ -39,7 +35,7 @@ You don't have to keep eating. To decline politely:
 - For a specific item, a small hand-wave over that spot communicates "not this one".
 
 :::tip[Finishing a sadya]
-When you're truly done, **fold the banana leaf towards yourself** — it both signals contentment and closes the meal. See [The Sadya](/regions/kerala/sadya/).
+When you're truly done, **fold the banana leaf towards yourself** — it both signals contentment and closes the meal. See [The Sadya](/kerala/sadya/).
 :::
 
 ## Serving others
@@ -50,6 +46,6 @@ If you serve at all:
 - Don't let the **serving spoon touch anyone's plate or leaf** — lift and pour. This is good manners *and* good hygiene.
 - Offer the **freshest, best portions to guests and elders** first.
 
-:::hygiene
+:::caution[🧼 Hygiene note]
 The single most hygienic serving habit is keeping the **serving utensil from touching individual plates**. A ladle that dips from leaf to leaf can carry saliva and germs down the whole row. Use dedicated serving spoons, and never the spoon someone has eaten with.
 :::

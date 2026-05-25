@@ -1,12 +1,8 @@
 ---
 title: Glossary
-summary: A quick guide to the Malayalam food and dining words used across these Kerala guides.
-order: 7
-icon: "📖"
-tags: [glossary, malayalam, terms]
-sources:
-  - label: "Kerala cuisine — Wikipedia"
-    url: https://en.wikipedia.org/wiki/Kerala_cuisine
+description: A quick guide to the Malayalam food and dining words used across these Kerala guides.
+sidebar:
+  order: 8
 lastUpdated: 2026-05-25
 ---
 
@@ -45,5 +41,5 @@ Common Malayalam terms you'll meet on these pages. Spellings are romanised and v
 - **Sulaimani** — a light, spiced black tea, often after a rich meal.
 
 :::tip
-Recognising the dishes by name helps you follow the [order of a sadya](/regions/kerala/sadya/) — you'll know the cooling *moru* signals the meal is winding down.
+Recognising the dishes by name helps you follow the [order of a sadya](/kerala/sadya/) — you'll know the cooling *moru* signals the meal is winding down.
 :::
