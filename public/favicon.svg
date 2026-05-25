@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="EtiKett banana leaf">
+  <rect width="64" height="64" rx="14" fill="#fbf7ef"/>
+  <!-- banana leaf -->
+  <path d="M14 50 C14 26 30 12 52 12 C52 36 36 50 14 50 Z" fill="#2e7d32"/>
+  <path d="M14 50 C24 38 38 24 50 14" stroke="#e6efe2" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+  <!-- a few veins -->
+  <path d="M26 44 C30 38 30 38 34 30" stroke="#1b5e20" stroke-width="1.4" fill="none" opacity="0.6"/>
+  <path d="M34 46 C38 40 40 38 44 30" stroke="#1b5e20" stroke-width="1.4" fill="none" opacity="0.6"/>
+  <!-- a small dollop (turmeric) -->
+  <circle cx="40" cy="40" r="3.4" fill="#d98a2b"/>
+</svg>

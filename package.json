@@ -1,0 +1,21 @@
+{
+  "name": "etikette",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A guide to regional dining etiquette across India, starting with Kerala.",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "check": "astro check",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/mdx": "^5.0.6",
+    "astro": "^6.3.7",
+    "remark-directive": "^4.0.0",
+    "unist-util-visit": "^5.1.0"
+  }
+}
