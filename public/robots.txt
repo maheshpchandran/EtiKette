@@ -1,0 +1,10 @@
+# EtiKette welcomes crawlers, including AI/LLM crawlers.
+User-agent: *
+Allow: /
+
+Sitemap: https://etikette.in/sitemap-index.xml
+
+# LLM-friendly content is available as Markdown:
+#   https://etikette.in/llms.txt        (index)
+#   https://etikette.in/llms-full.txt   (full content)
+#   https://etikette.in/llms-small.txt  (trimmed for small context windows)
