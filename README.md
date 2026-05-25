@@ -1,22 +1,22 @@
 # EtiKette
 
-**A living, open-source guide to regional dining etiquette across India — starting with Kerala.**
+**A living, open-source guide to regional dining etiquette across India, starting with Kerala.**
 
 🔗 **Live site:** https://etikette.in
 
 India has no single table manner. What counts as polite changes from state to
 state, community to community, even household to household. **EtiKette**
-documents how people actually eat, serve, and celebrate food — the layout of a
-banana-leaf *sadya*, the etiquette of eating by hand, who gets served first —
+documents how people actually eat, serve, and celebrate food (the layout of a
+banana-leaf *sadya*, the etiquette of eating by hand, who gets served first),
 and, where a beloved tradition carries a real health risk, it flags a more
 **hygienic** alternative, respectfully.
 
 ## Tech stack
 
-- **[Astro](https://astro.build)** + **[Starlight](https://starlight.astro.build)**
-  — the official Astro docs theme: sidebar navigation, full-text search
+- **[Astro](https://astro.build)** + **[Starlight](https://starlight.astro.build)**,
+  the official Astro docs theme: sidebar navigation, full-text search
   (Pagefind), dark/light mode, and accessibility out of the box.
-- Content authored in **Markdown / MDX** — no coding required to contribute.
+- Content authored in **Markdown / MDX**; no coding required to contribute.
 - Hygiene/tradition notes use Starlight **asides** (`:::caution`, `:::note`,
   `:::tip`).
 - Hosted on **GitHub Pages** (custom domain `etikette.in`), deployed by GitHub
@@ -52,7 +52,7 @@ public/                         favicon, CNAME (custom domain)
 
 ## Contributing
 
-Contributions are very welcome — fixing a detail, adding a topic, or adding a
+Contributions are very welcome: fixing a detail, adding a topic, or adding a
 whole new region. **You don't need to be a developer**; every guide is a plain
 Markdown file. See **[CONTRIBUTING.md](CONTRIBUTING.md)** for the workflow,
 frontmatter schema, callout syntax, and house style.

@@ -1,20 +1,20 @@
 ---
 title: About EtiKette
-description: Why EtiKette exists — a respectful, open-source guide to regional dining etiquette across India.
+description: "Why EtiKette exists: a respectful, open-source guide to regional dining etiquette across India."
 lastUpdated: 2026-05-25
 ---
 
-India is not one table. What counts as good manners at a meal changes from state to state, community to community, even household to household. A visitor — or a curious Indian from another region — often has no reliable place to learn how to eat respectfully somewhere new. **EtiKette** is an attempt to write that guide, region by region.
+India is not one table. What counts as good manners at a meal changes from state to state, community to community, even household to household. A visitor, or a curious Indian from another region, often has no reliable place to learn how to eat respectfully somewhere new. **EtiKette** is an attempt to write that guide, region by region.
 
 ## What this is
 
 - A practical, descriptive record of how people eat, serve, and celebrate food.
-- Honest about variation — we say when a custom differs by faith, community, or family.
+- Honest about variation: we say when a custom differs by faith, community, or family.
 - Open source and community-built, so it can grow and be corrected over time.
 
 ## The hygiene angle
 
-Some long-standing practices — sharing a single water tumbler, eating from a common vessel, double-dipping fingers — carry real health risks. We don't shame these traditions; we explain them, note the risk plainly, and offer a more hygienic alternative. Look for these throughout the guides:
+Some long-standing practices, such as sharing a single water tumbler, eating from a common vessel, or double-dipping fingers, carry real health risks. We don't shame these traditions; we explain them, note the risk plainly, and offer a more hygienic alternative. Look for these throughout the guides:
 
 :::caution[🧼 Hygiene note]
 This is what a hygiene note looks like. It names a risk and suggests a safer way to keep the spirit of the custom without the downside.

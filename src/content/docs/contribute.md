@@ -1,10 +1,10 @@
 ---
 title: Contribute
-description: How to add or correct a dining-etiquette guide on EtiKette. No coding required — just Markdown.
+description: How to add or correct a dining-etiquette guide on EtiKette. No coding required, just Markdown.
 lastUpdated: 2026-05-25
 ---
 
-EtiKette grows through contributions from people who know their region's food culture. You don't need to be a developer — every guide is a plain Markdown file.
+EtiKette grows through contributions from people who know their region's food culture. You don't need to be a developer; every guide is a plain Markdown file.
 
 ## Three ways to help
 
@@ -26,11 +26,11 @@ lastUpdated: 2026-05-25
 ---
 ```
 
-The file's path becomes its URL — `kerala/sadya.md` → `/kerala/sadya/` — and it appears automatically in the sidebar.
+The file's path becomes its URL (`kerala/sadya.md` → `/kerala/sadya/`), and it appears automatically in the sidebar.
 
 ## Callouts
 
-Use Starlight's asides — no components to import:
+Use Starlight's asides, with no components to import:
 
 ```markdown
 :::caution[🧼 Hygiene note]
@@ -49,7 +49,7 @@ Available types: `note`, `tip`, `caution`, `danger`. We use **`caution` for hygi
 - **Describe, don't prescribe.** Record what people do; avoid “you must”.
 - **Name the variation.** Say when a custom differs by community, faith, or family.
 - **Cite where you can.** Add a “Sources & further reading” section at the end.
-- **Be respectful about hygiene.** Explain the risk and a kinder, safer option — never mock.
+- **Be respectful about hygiene.** Explain the risk and a kinder, safer option; never mock.
 
 ## Submitting
 

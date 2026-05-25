@@ -1,7 +1,7 @@
 # Contributing to EtiKette
 
 Thank you for helping document how India eats! EtiKette grows through people who
-know their region's food culture. **You don't need to be a developer** — every
+know their region's food culture. **You don't need to be a developer**; every
 guide is a plain Markdown file, and the site is built with
 [Astro Starlight](https://starlight.astro.build/).
 
@@ -31,7 +31,7 @@ Every file starts with Starlight frontmatter:
 
 ```yaml
 ---
-title: The Sadya                       # required — page heading & <title>
+title: The Sadya                       # required: page heading & <title>
 description: One-sentence summary used for SEO and link previews.
 sidebar:
   order: 2                             # position within the region (overview = 1)
@@ -42,7 +42,7 @@ lastUpdated: 2026-05-25                # date you last reviewed the content
 
 ## Callouts (Starlight asides)
 
-Use Starlight's asides — no imports needed:
+Use Starlight's asides, with no imports needed:
 
 ```markdown
 :::caution[🧼 Hygiene note]
@@ -61,7 +61,7 @@ Our conventions for the four built-in types:
 | `caution` | a health/hygiene risk + safer alternative | `🧼 Hygiene note` |
 | `note` | a tradition, or a regional/community variation | `🪔 Tradition` / `🧭 Regional variation` |
 | `tip` | practical, in-the-moment advice | (your own title) |
-| `danger` | reserve for genuinely serious warnings | — |
+| `danger` | reserve for genuinely serious warnings | n/a |
 
 ## Sources
 
@@ -70,7 +70,7 @@ End each page with a section, and cite where you can:
 ```markdown
 ## Sources & further reading
 
-- [Sadya — Wikipedia](https://en.wikipedia.org/wiki/Sadya)
+- [Sadya (Wikipedia)](https://en.wikipedia.org/wiki/Sadya)
 ```
 
 ## Adding a new region
@@ -96,7 +96,7 @@ End each page with a section, and cite where you can:
   or family. Don't present one group's practice as the whole region's.
 - **Cite where you can.** Add references to a "Sources & further reading" section.
 - **Be respectful about hygiene.** Explain the risk and a kinder, safer
-  alternative — never mock a tradition.
+  alternative; never mock a tradition.
 - Keep a warm, plain, welcoming tone.
 
 ## Submitting a change

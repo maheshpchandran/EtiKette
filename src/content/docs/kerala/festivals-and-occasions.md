@@ -7,11 +7,11 @@ sidebar:
 lastUpdated: 2026-05-25
 ---
 
-The same broad manners — eating by hand, being served, honouring guests and elders — carry across occasions, but *what* is served, and how festive the table becomes, varies a great deal by community and event.
+The same broad manners (eating by hand, being served, honouring guests and elders) carry across occasions, but *what* is served, and how festive the table becomes, varies a great deal by community and event.
 
 ## Onam
 
-Onam is Kerala's harvest festival and the high point of the dining year. The **Onasadya** is an elaborate vegetarian feast on a banana leaf — often two dozen-plus dishes — culminating in one or more **payasams**. Everything in [The Sadya](/kerala/sadya/) applies, dialled up: more dishes, more rounds, more insistence on "a little more".
+Onam is Kerala's harvest festival and the high point of the dining year. The **Onasadya** is an elaborate vegetarian feast on a banana leaf, often two dozen-plus dishes, culminating in one or more **payasams**. Everything in [The Sadya](/kerala/sadya/) applies, dialled up: more dishes, more rounds, more insistence on "a little more".
 
 ## Vishu
 
@@ -20,7 +20,7 @@ The Malayali New Year (mid-April) centres on the **Vishukkani** (an auspicious a
 ## Weddings
 
 - **Hindu weddings** typically serve a vegetarian sadya on a leaf.
-- **Syrian Christian weddings** are famous for a **non-vegetarian** spread — beef *ularthiyathu*, duck or chicken, *appam* and **stew**, and sometimes a rice dish — often eaten at table rather than on a leaf.
+- **Syrian Christian weddings** are famous for a **non-vegetarian** spread (beef *ularthiyathu*, duck or chicken, *appam* and **stew**, and sometimes a rice dish), often eaten at table rather than on a leaf.
 
 :::note[🧭 Regional variation]
 Whether a wedding meal is vegetarian or meat-rich, on a leaf or on a plate, depends entirely on the community hosting it. Take your cue from the hosts and the setting.
@@ -28,7 +28,7 @@ Whether a wedding meal is vegetarian or meat-rich, on a leaf or on a plate, depe
 
 ## Christian feasts
 
-Beyond weddings, **Christmas and Easter** tables among Kerala's Christians feature meat dishes, appam, *vattayappam*, and rich sweets. Hospitality runs the same way — guests served generously and first.
+Beyond weddings, **Christmas and Easter** tables among Kerala's Christians feature meat dishes, appam, *vattayappam*, and rich sweets. Hospitality runs the same way: guests served generously and first.
 
 ## Muslim (Mappila) occasions and Ramadan
 
@@ -38,14 +38,14 @@ The Malabar coast brings its own celebrated table:
 - During **Ramadan**, the fast is broken with **nombu kanji** (a spiced rice porridge), dates, fried snacks, and *sulaimani* (a light spiced black tea).
 
 :::note[🪔 Tradition]
-Some Mappila wedding traditions feature several guests sharing one large platter (*panthi* / community dining) as a sign of togetherness. It's a meaningful custom — see the [hygiene guide](/kerala/hygiene/) for how to honour it while keeping shared-platter risks in mind.
+Some Mappila wedding traditions feature several guests sharing one large platter (*panthi* / community dining) as a sign of togetherness. It's a meaningful custom; see the [hygiene guide](/kerala/hygiene/) for how to honour it while keeping shared-platter risks in mind.
 :::
 
 ## Funeral and remembrance meals
 
-Meals after death rites are simpler and solemn. This is the context behind the often-cited belief that a banana leaf folded *away* from the diner belongs to such occasions — one reason a festive sadya leaf is folded *towards* you. Conventions vary by family; see the note in [The Sadya](/kerala/sadya/).
+Meals after death rites are simpler and solemn. This is the context behind the often-cited belief that a banana leaf folded *away* from the diner belongs to such occasions, one reason a festive sadya leaf is folded *towards* you. Conventions vary by family; see the note in [The Sadya](/kerala/sadya/).
 
 ## Sources & further reading
 
-- [Onam — Wikipedia](https://en.wikipedia.org/wiki/Onam)
-- [Malabar cuisine — Wikipedia](https://en.wikipedia.org/wiki/Malabar_cuisine)
+- [Onam (Wikipedia)](https://en.wikipedia.org/wiki/Onam)
+- [Malabar cuisine (Wikipedia)](https://en.wikipedia.org/wiki/Malabar_cuisine)
