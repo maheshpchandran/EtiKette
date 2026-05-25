@@ -1,0 +1,34 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import TopicCard from '../../components/TopicCard.astro';
+import { regions } from '../../data/regions';
+import { regionHref, withBase } from '../../lib/url';
+---
+
+<BaseLayout
+  title="Regions"
+  description="Browse dining-etiquette guides by region across India."
+>
+  <div class="container">
+    <Breadcrumbs items={[{ label: 'Home', href: withBase('/') }, { label: 'Regions' }]} />
+    <h1>Regions of India</h1>
+    <p class="prose">
+      Each region gets its own guide to how meals are laid out, eaten, served,
+      and celebrated. More regions are added over time — want to start one?
+      See <a href={withBase('contribute/')}>how to contribute</a>.
+    </p>
+
+    <ul class="card-grid">
+      {regions.map((r) => (
+        <TopicCard
+          href={r.status === 'published' ? regionHref(r.slug) : undefined}
+          icon={r.emoji}
+          title={r.localName ? `${r.name} · ${r.localName}` : r.name}
+          summary={`${r.area} — ${r.blurb}`}
+          soon={r.status === 'planned'}
+        />
+      ))}
+    </ul>
+  </div>
+</BaseLayout>

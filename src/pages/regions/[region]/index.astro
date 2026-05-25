@@ -1,0 +1,62 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+import TopicCard from '../../../components/TopicCard.astro';
+import { publishedRegions, getRegion } from '../../../data/regions';
+import { withBase, topicHref } from '../../../lib/url';
+
+export async function getStaticPaths() {
+  return publishedRegions.map((r) => ({ params: { region: r.slug } }));
+}
+
+const { region } = Astro.params;
+const meta = getRegion(region)!;
+
+const all = await getCollection('regions', (e) => e.id.startsWith(`${region}/`) && !e.data.draft);
+
+const overview = all.find((e) => e.id === `${region}/overview`);
+const topics = all
+  .filter((e) => e.id !== `${region}/overview`)
+  .sort((a, b) => a.data.order - b.data.order);
+
+const OverviewContent = overview ? (await render(overview)).Content : null;
+---
+
+<BaseLayout
+  title={meta.name}
+  description={meta.blurb}
+>
+  <div class="container">
+    <Breadcrumbs
+      items={[
+        { label: 'Home', href: withBase('/') },
+        { label: 'Regions', href: withBase('regions/') },
+        { label: meta.name },
+      ]}
+    />
+
+    <header class="topic-head">
+      <h1>{meta.name} {meta.localName && <span style="color:var(--muted);font-size:0.6em">· {meta.localName}</span>}</h1>
+      <p class="summary">{meta.blurb}</p>
+    </header>
+
+    {OverviewContent && (
+      <article class="prose">
+        <OverviewContent />
+      </article>
+    )}
+
+    <h2>Guides for {meta.name}</h2>
+    <ul class="card-grid">
+      {topics.map((t) => (
+        <TopicCard
+          href={topicHref(region, t.id.split('/').slice(1).join('/'))}
+          icon={t.data.icon}
+          title={t.data.title}
+          summary={t.data.summary}
+        />
+      ))}
+    </ul>
+  </div>
+</BaseLayout>
