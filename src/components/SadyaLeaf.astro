@@ -1,13 +1,18 @@
 ---
-// A labelled diagram of how a Kerala sadya is laid out on a banana leaf:
-// the tapered tip points LEFT, condiments and dry/sweet sides sit on the far
-// half, and rice (with curries poured over it in courses) sits on the near
-// half. Placement varies by household and occasion; this is the common form.
+// A labelled diagram of how a Kerala Onam sadya is laid out on a banana leaf,
+// in the canonical Central Travancore arrangement. The tapered tip points
+// LEFT; the server sweeps left-to-right from the tip: salt, banana,
+// pappadam, then chips and sharkara varatti, the three pickles, kichadi
+// and pachadi, the wet vegetable curries (olan, kaalan, erissery, avial),
+// closing with thoran at the broad right end. Rice sits centre-near and
+// receives parippu+ghee, sambar, rasam and moru in successive courses,
+// with payasam at the end. Counts and placement vary by household, region
+// and occasion — this is the common form.
 ---
 
 <figure class="leaf-figure">
   <svg viewBox="0 0 960 560" role="img"
-       aria-label="A banana leaf laid out for a Kerala sadya. The narrow tip points to the diner's left. Across the far half, from left to right, sit salt and pickles, banana chips and sharkara upperi, thoran and avial, olan, and kaalan, kichadi and pachadi, with pappadam at the far right. On the near half a large mound of rice sits in the centre, with parippu, sambar, rasam and moru poured over it in courses, and payasam to the right. The diner sits on the near side.">
+       aria-label="A banana leaf laid out for a Kerala Onam sadya in the Central Travancore style. The narrow tip points to the diner's left. Across the far half, served from left to right beginning at the tip, sit a pinch of salt, a piece of ripe banana, a pappadam, banana chips and sharkara varatti, the pickles puli inji, mango and lime, then kichadi and pachadi, then the wet vegetable curries olan, kaalan, erissery and avial, with thoran at the broad right end. On the near half a mound of red matta rice sits in the centre, with parippu and ghee, then sambar, then rasam, then moru poured over it in successive courses. Payasam, a dark jaggery-and-coconut-milk pradhaman, is served at the end. The diner sits on the near side.">
     <defs>
       <linearGradient id="leafG" x1="0" y1="0" x2="0" y2="1">
         <stop offset="0" stop-color="#3a8f3f" />
@@ -25,61 +30,92 @@
     <path d="M300 360 C360 325 420 305 470 282" stroke="#bfe0bd" stroke-width="1.4" fill="none" opacity="0.5" />
 
     <g font-family="ui-sans-serif, system-ui, sans-serif" text-anchor="middle">
-      <!-- ===== FAR HALF (away from diner): condiments + dry/sweet + sides ===== -->
-      <text x="480" y="120" font-size="15" fill="#6f665a" font-style="italic">Far half: condiments, crunchy &amp; sweet bits, vegetable sides</text>
+      <!-- ===== FAR HALF (away from diner): served left-to-right from the tip ===== -->
+      <text x="480" y="115" font-size="14" fill="#6f665a" font-style="italic">Far half — served left to right from the tip: salt, banana, crisp &amp; sweet, pickles, side curries</text>
 
-      <!-- salt + pickles (far left) -->
-      <circle cx="175" cy="225" r="9" fill="#d98a2b" />
-      <circle cx="205" cy="232" r="11" fill="#a6571f" />
-      <text x="190" y="200" font-size="14" fill="#fff">Salt · pickles</text>
-      <text x="190" y="255" font-size="12" fill="#eaf3e8">puli inji, mango</text>
+      <!-- 1–3. Uppu (salt), pazham (banana), pappadam — clustered at the tip -->
+      <circle cx="118" cy="248" r="4" fill="#fff8e1" />
+      <ellipse cx="148" cy="245" rx="13" ry="5" fill="#f4d35e" transform="rotate(-15 148 245)" />
+      <circle cx="190" cy="245" r="12" fill="#f3e6c4" stroke="#cbb27a" stroke-width="1.2" />
+      <text x="155" y="220" font-size="12" fill="#fff">Uppu · pazham · pappadam</text>
+      <text x="155" y="277" font-size="11" fill="#eaf3e8">salt, ripe banana, papad</text>
 
-      <!-- chips + sharkara -->
-      <circle cx="320" cy="228" r="12" fill="#e8c14a" />
-      <circle cx="350" cy="235" r="10" fill="#7a4a1c" />
-      <text x="335" y="205" font-size="13" fill="#fff">Banana chips ·</text>
-      <text x="335" y="258" font-size="12" fill="#eaf3e8">sharkara upperi</text>
+      <!-- 4–5. Upperi (banana chips) + sharkara varatti -->
+      <circle cx="265" cy="245" r="10" fill="#e8c14a" />
+      <circle cx="293" cy="248" r="10" fill="#5a3018" stroke="#3a1f10" stroke-width="1" />
+      <text x="279" y="220" font-size="12" fill="#fff">Upperi · sharkara varatti</text>
+      <text x="279" y="277" font-size="11" fill="#eaf3e8">chips &amp; jaggery-coated</text>
 
-      <!-- thoran / avial -->
-      <circle cx="470" cy="225" r="13" fill="#7cb342" />
-      <text x="470" y="200" font-size="14" fill="#fff">Thoran · avial</text>
+      <!-- 6. Three pickles: puli inji, mango, lime -->
+      <circle cx="370" cy="248" r="8" fill="#8b5028" stroke="#5a3018" stroke-width="0.8" />
+      <circle cx="390" cy="244" r="8" fill="#c44a1e" />
+      <circle cx="410" cy="248" r="8" fill="#d98a2b" />
+      <text x="390" y="220" font-size="12" fill="#fff">Puli inji · mango · lime</text>
+      <text x="390" y="277" font-size="11" fill="#eaf3e8">three pickles, dollops</text>
 
-      <!-- olan -->
-      <circle cx="600" cy="225" r="12" fill="#cfe3b0" />
-      <text x="600" y="200" font-size="14" fill="#fff">Olan</text>
+      <!-- 7–8. Kichadi + pachadi -->
+      <circle cx="478" cy="245" r="11" fill="#f0ebde" stroke="#cabea0" stroke-width="1" />
+      <circle cx="508" cy="247" r="11" fill="#e8c8d4" />
+      <text x="493" y="220" font-size="12" fill="#fff">Kichadi · pachadi</text>
+      <text x="493" y="277" font-size="11" fill="#eaf3e8">curd-coconut sides</text>
 
-      <!-- kaalan / kichadi / pachadi -->
-      <circle cx="725" cy="228" r="12" fill="#e8d8a0" />
-      <text x="725" y="203" font-size="13" fill="#fff">Kaalan · kichadi ·</text>
-      <text x="725" y="258" font-size="12" fill="#eaf3e8">pachadi</text>
+      <!-- 9–10. Olan + kaalan -->
+      <circle cx="580" cy="247" r="12" fill="#eef0d8" stroke="#c8caa8" stroke-width="1" />
+      <circle cx="612" cy="247" r="12" fill="#e8d680" />
+      <text x="596" y="220" font-size="12" fill="#fff">Olan · kaalan</text>
+      <text x="596" y="277" font-size="11" fill="#eaf3e8">ash-gourd, yam-curd</text>
 
-      <!-- pappadam far right -->
-      <circle cx="840" cy="240" r="16" fill="#f3e6c4" stroke="#cbb27a" stroke-width="1.5" />
-      <text x="840" y="210" font-size="14" fill="#fff">Pappadam</text>
+      <!-- 11. Erissery -->
+      <circle cx="690" cy="247" r="12" fill="#d97a3a" />
+      <text x="690" y="220" font-size="12" fill="#fff">Erissery</text>
+      <text x="690" y="277" font-size="11" fill="#eaf3e8">pumpkin, cowpea</text>
 
-      <!-- ===== NEAR HALF (diner's side): rice + curries + payasam ===== -->
-      <!-- rice mound -->
-      <ellipse cx="430" cy="345" rx="95" ry="46" fill="#fdfaf2" stroke="#d8c89c" stroke-width="2" />
-      <text x="430" y="345" font-size="20" fill="#3a2f1c" font-weight="700">Rice</text>
-      <text x="430" y="368" font-size="13" fill="#7a6a45">choru</text>
-      <text x="430" y="418" font-size="13" fill="#fff">↑ parippu · sambar · rasam · moru poured over rice, in courses</text>
+      <!-- 12. Avial -->
+      <circle cx="770" cy="247" r="13" fill="#a8c87a" />
+      <text x="770" y="220" font-size="13" fill="#fff">Avial</text>
+      <text x="770" y="277" font-size="11" fill="#eaf3e8">mixed veg, coconut</text>
 
-      <!-- payasam -->
-      <circle cx="730" cy="345" r="22" fill="#caa6d8" stroke="#9a6fb0" stroke-width="2" />
-      <text x="730" y="350" font-size="13" fill="#3a2540" font-weight="700">Payasam</text>
-      <text x="730" y="392" font-size="12" fill="#fff">served at the end</text>
+      <!-- 13. Thoran (broad right end) -->
+      <circle cx="848" cy="247" r="13" fill="#5a9a3e" />
+      <text x="848" y="220" font-size="13" fill="#fff">Thoran</text>
+      <text x="848" y="277" font-size="11" fill="#eaf3e8">stir-fried, coconut</text>
+
+      <!-- ===== NEAR HALF (diner's side): rice + ozhichu curries + payasam ===== -->
+      <!-- rice mound: matta, reddish-tan -->
+      <ellipse cx="430" cy="350" rx="100" ry="48" fill="#e8c89a" stroke="#a87a3a" stroke-width="2" />
+      <text x="430" y="346" font-size="20" fill="#3a2010" font-weight="700">Choru</text>
+      <text x="430" y="368" font-size="12" fill="#7a4a1c">red matta rice</text>
+
+      <!-- ozhichu courses, poured in sequence over the rice -->
+      <text x="430" y="418" font-size="12" fill="#fff">↑ poured over rice, course by course:</text>
+      <text x="430" y="436" font-size="12" fill="#fff" font-style="italic">parippu + ghee  →  sambar  →  rasam  →  moru</text>
+
+      <!-- payasam (pradhaman: dark, jaggery + coconut milk) -->
+      <circle cx="745" cy="350" r="22" fill="#4a2818" stroke="#2a1408" stroke-width="2" />
+      <text x="745" y="354" font-size="13" fill="#f4d8a8" font-weight="700">Payasam</text>
+      <text x="745" y="395" font-size="11" fill="#fff">jaggery pradhaman,</text>
+      <text x="745" y="410" font-size="11" fill="#fff">served at the end</text>
     </g>
 
     <!-- annotations outside the leaf -->
     <g font-family="ui-sans-serif, system-ui, sans-serif" fill="#6f665a">
       <text x="30" y="285" font-size="14" text-anchor="start">tip ◀</text>
+      <text x="930" y="285" font-size="14" text-anchor="end">▶ broad end</text>
       <text x="480" y="540" font-size="15" text-anchor="middle" font-weight="600">▼ the diner sits on this side ▼</text>
     </g>
   </svg>
   <figcaption>
-    A typical sadya layout. The pointed tip of the leaf faces the diner's left; the
-    far half carries pickles, crisp and sweet bits, and vegetable curries, while
-    rice sits on the near half and is served curry-by-curry. Exact placement varies
-    by family, community, and occasion.
+    The Kerala Onasadya in its common Central Travancore form. The narrow tip
+    of the leaf faces the diner's left; the server works left-to-right from the
+    tip — a pinch of salt, a piece of ripe banana and a pappadam, then banana
+    chips and sharkara varatti, the three pickles (puli inji, mango, lime),
+    kichadi and pachadi, then the wet vegetable curries (olan, kaalan, erissery,
+    avial), closing with thoran at the broad right end. Red matta rice is heaped
+    centre-near and is eaten curry-by-curry: parippu with ghee first, then sambar,
+    then rasam, finishing with moru. Payasam, traditionally a dark jaggery-and-
+    coconut-milk pradhaman, lands last. Counts and exact placement vary by
+    household, region and occasion — a Kollam leaf adds boli under paal payasam,
+    a Malabar one is leaner and sometimes non-vegetarian, and the Aranmula Valla
+    Sadya can run to sixty-four dishes.
   </figcaption>
 </figure>
