@@ -83,8 +83,8 @@ End each page with a section, and cite where you can:
 
    ```js
    sidebar: [
-     { label: 'Kerala 🌴', items: [{ autogenerate: { directory: 'kerala' } }] },
-     { label: 'Tamil Nadu 🪔', items: [{ autogenerate: { directory: 'tamil-nadu' } }] },
+     { label: 'Kerala', items: [{ autogenerate: { directory: 'kerala' } }] },
+     { label: 'Tamil Nadu', items: [{ autogenerate: { directory: 'tamil-nadu' } }] },
      // …
    ]
    ```

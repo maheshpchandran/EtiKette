@@ -27,7 +27,7 @@ export default defineConfig({
       lastUpdated: true,
       sidebar: [
         {
-          label: 'Kerala 🌴',
+          label: 'Kerala',
           items: [{ autogenerate: { directory: 'kerala' } }],
         },
         {
